@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/f18dfd6de3.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+<body>
+    <header>
+      <a href="" class="title">Julio Caceres</a>
+      <nav>
+        <ul class="navs">
+          <li><a href="#" onclick="showAbout()">About Me</a></li>
+          <li><a href="#" onclick="showProjects()">Projects</a></li>
+          <li><a href="#" onclick="showSkills()">Skills</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="contact-button" onclick="showContact()">Contact</a>
+      <a href="#" class="menu-button"><i class="fas fa-bars"></i></a>
+    </header>
+    <div class="responsive-nav">
+      <ul>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <main>
+      <!-- About -->
+      <div id="about">
+        <div class="description">
+          <h1 class="section-title">About Me</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum nostrum expedita perspiciatis praesentium ad placeat corporis exercitationem. Quo impedit ratione ipsum ea obcaecati deleniti ut laborum maxime odit a? Voluptate?</p>
+        </div>
+
+        <div class="media">
+          <img src="/img/profile.jpg" alt="">
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <div id="projects">
+        <h1 class="section-title">Projects</h1>
+        <div class="main">
+          <div class="caption">
+            <h1 id="p_title" >Gmail</h1>
+            <p id="p_description">Gmail (abreviación de Google Mail) es un servicio de correo electrónico proporcionado por la empresa estadounidense Google desde el 1 de abril de 2004. Tras más de cinco años en fase "beta" (de pruebas), el 7 de julio de 2009 Gmail pasó a ser considerado un producto terminado. Las cuentas básicas de Gmail son gratuitas pero Google se remunera mostrando anuncios al usuario mientras que la versión para empresas, de pago, está libre de publicidad</p>
+          </div>
+  
+          <div class="media">
+            <img src="img/gmail.png"  id="p_img" alt="">
+          </div>
+        </div>
+        <div class="projects-menu">
+          <ul>
+            <!-- <li><a href="#"><p>Application</p> <i class="fas fa-envelope fa-3x"></i></a></li> -->
+          </ul>
+        </div>
+      </div>
+
+
+      <!-- Skills -->
+      <div id="skills">
+        <h1 class="section-title">Skills</h1>
+        <div class="skills-container">
+          <i class="fab fa-react"></i>
+          <i class="fab fa-vuejs"></i>
+          <i class="fab fa-angular"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3"></i>
+          <i class="fab fa-php"></i>
+          <i class="fab fa-node"></i>
+          <i class="fab fa-java"></i>
+          <i class="fab fa-github"></i>
+        </div>
+        
+      </div>
+
+      <!-- Contact -->
+      <div id="contact">
+        <h1>Contact Me</h1>
+        <form action="" class="form">
+          <input type="text" name="name" placeholder="Name">
+
+          <input type="email" name="email" placeholder="Email">
+
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+          
+          <button type="reset" class="button"><i class="fas fa-retweet"></i> Clean</i></button>
+          <button type="submit" class="button"><i class="fas fa-envelope"></i> Send</button>
+        </form>
+      </div>
+    </main>
+
+    <footer></footer>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
